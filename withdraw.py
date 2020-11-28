@@ -14,3 +14,7 @@ a = int(input("Enter The First Number"))
 b = int(input("Enter The Second Number"))
 
 
+print(f" Sum Of Two Numbers is {add(a,b)}")
+print(f" Sub Of Two Numbers is {sub(a,b)}")
+print(f" Multiplication Of Two Numbers is {mul(a,b)}")
+print(f" Division Of Two Numbers is {div(a,b)}")
