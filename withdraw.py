@@ -10,6 +10,9 @@ def mul(a,b):
 def div(a,b):
   return a/b
 
+def mod(a,b):
+  return a%b
+
 a = int(input("Enter The First Number"))
 b = int(input("Enter The Second Number"))
 
@@ -18,3 +21,4 @@ print(f" Sum Of Two Numbers is {add(a,b)}")
 print(f" Sub Of Two Numbers is {sub(a,b)}")
 print(f" Multiplication Of Two Numbers is {mul(a,b)}")
 print(f" Division Of Two Numbers is {div(a,b)}")
+print(f"modulus of two numbers is {mod(a,b)}")
